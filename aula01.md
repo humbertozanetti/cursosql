@@ -15,13 +15,13 @@
 
 ## 2. Criando o Banco de Dados
 
-O primeiro passo prático é criar o ambiente onde as tabelas vão estar, ou seja, criar o Banco de Dados em que as tabelas estarão associadas. Para o exemplo de aula vamosm criar uma Agenda de Contato.
+O primeiro passo prático é criar o ambiente onde as tabelas vão estar, ou seja, criar o Banco de Dados em que as tabelas estarão associadas. Para o exemplo de aula vamos criar uma Agenda de Contato.
 
 ```sql
 -- Cria o banco de dados para a nossa agenda
 CREATE DATABASE agenda_db;
 
--- Seleciona o banco de dados recém-criado para uso nas próximas instruções
+-- Seleciona o banco de dados recém-criado para uso nas próximas instruções (é importante para o SGBD saber em qual lugar vai rodar os script!)
 USE agenda_db;
 ```
 
@@ -34,7 +34,7 @@ USE agenda_db;
 * **Numéricos:**
   * `INT`: Números inteiros padrão (ex: IDs, quantidades).
   * `BIGINT`: Números inteiros grandes (para alto volume de registros).
-  * `DECIMAL(p, s)`: Números exatos com casas decimais (ótimo para valores monetários, ex: `DECIMAL(10,2)`).
+  * `DECIMAL(p, s)`: Números exatos com casas decimais (valores monetários, ex: `DECIMAL(10,2)`).
   * `TINYINT`: Número inteiro pequeno (muito usado como booleano: `0` para falso, `1` para verdadeiro).
 
 * **Textos e Strings:**
