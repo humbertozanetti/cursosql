@@ -1,4 +1,4 @@
-# Manipulação e Consulta de Dados (DML e SELECT)
+# Aula 02 - Comandos de Manipulação e Consulta de Dados (DML e SELECT)
 
 Nessa ula vamos ver o conjunto de **Data Manipulation Language (DML)** em MySQL (`INSERT`, `UPDATE`, `DELETE`) e expande o estudo para as consultas avançadas usando **DQL/SELECT**, utilizando a nossa tabela de **Agenda de Contatos**.
 
