@@ -34,7 +34,7 @@ SET telefone = '(11)99999-9999'
 WHERE id = 1;
 ```
 
-> ** Cuidado com o `UPDATE`:** 
+> **Cuidado com o `UPDATE`:** 
 > Nunca se esqueça da cláusula **`WHERE`**. Se você rodar um `UPDATE` sem o `WHERE`, o MySQL vai alterar aquela coluna para **todos** os registros da tabela de uma só vez!
 
 ---
