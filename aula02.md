@@ -53,7 +53,7 @@ WHERE id = 2;
 
 ---
 
-## 5. Mergulho Fundo: Operações com `SELECT` (Consultas)
+## 5. Operações com `SELECT` (Consultas)
 O `SELECT` é o comando mais utilizado no SQL. Ele serve para recuperar e filtrar os dados da base de acordo com as nossas necessidades.
 
 ### A. Consultas Básicas
